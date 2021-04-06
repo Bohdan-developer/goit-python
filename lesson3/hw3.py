@@ -7,7 +7,8 @@ def main():
         elif n == 1:
             return 1
         else:
-            return fibonacci(n-2) + fibonacci(n-1)
+            return fibonacci(n - 2) + fibonacci(n - 1)
+
     result = []
     start = 0
     for n in range(start, n+1):
