@@ -27,8 +27,8 @@ class Record:
 
     def editing(self, phone, new_phone):
         i = self.phones.phones.index(phone)
-        self.phones.phones.pop(i)
-        self.phones.phones.insert(i, new_phone)
+        self.phones.pop(i)
+        self.phones.insert(i, new_phone)
             
         
 
