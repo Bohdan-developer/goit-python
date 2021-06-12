@@ -13,15 +13,17 @@ class Record:
     
     record = dict()
     
-    def __init__(self, name, phone):
+    def __init__(self, name, phone=None):
         self.name = Name(name)
-        self.phones = Phone(phone)
+        self.phone = Phone(phone)
+        self.phones = list()
+        
     
     def add(self, phone):
-        self.phone = Phone(phone)
+        self.phones.append(phone)
 
     def deletion(self, phone):
-        self.phones.phones.remove(phone)
+        self.phones.remove(phone)
 
     def editing(self, phone, new_phone):
         i = self.phones.phones.index(phone)
@@ -40,11 +42,6 @@ class Name(Filed):
 
 class Phone(Filed):
     
-    phones = list()
-    
     def __init__(self, phone):
-           
-        if phone in self.phones:
-            print("tel in list")
-        else:
-            self.phones.append(phone)
+        self.value = phone
+
