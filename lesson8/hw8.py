@@ -2,14 +2,14 @@ from datetime import date, datetime, timedelta
 
 
 def main():
-    users = [{"name":"Piter", "birthday":"22.05.2021"},
-             {"name":"Maria", "birthday":"29.05.2021"},
-             {"name":"Tod", "birthday":"26.05.2021"},
-             {"name":"Bob", "birthday":"27.05.2021"},
-             {"name":"Lilly", "birthday":"28.05.2021"},
-             {"name":"Bill", "birthday":"30.05.2021"},
-             {"name":"Jack", "birthday":"23.05.2021"},
-             {"name":"Anna", "birthday":"25.05.2021"}]
+    users = [{"name":"Piter", "birthday":"22.07.2021"},
+             {"name":"Maria", "birthday":"29.07.2021"},
+             {"name":"Tod", "birthday":"26.07.2021"},
+             {"name":"Bob", "birthday":"27.07.2021"},
+             {"name":"Lilly", "birthday":"28.07.2021"},
+             {"name":"Bill", "birthday":"30.07.2021"},
+             {"name":"Jack", "birthday":"23.07.2021"},
+             {"name":"Anna", "birthday":"25.07.2021"}]
 
     def congratulate(users):
 
